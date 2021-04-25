@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div>
+    <button class="Button">Change Color</button>
+
+    <script>
+
+        var button = document.querySelector('.Button');
+
+        button.onclick = function(){
+            var red = Math.floor(Math.random() * 256);
+            var blue = Math.floor(Math.random() * 256);
+            var green = Math.floor(Math.random() * 256);
+
+            this.style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")";
+        }
+        
+   
+
+    </script>
+
+ </div>
+
+ <div class="Egybe">
+
+    <input class="szövegdoboz">
+    <br>
+    <button class="Button2" >  Hozzáad  </button>
+
+    <button class="Button3" >  Töröl  </button>
+
+    
+
+    <script>
+
+
+    </script>
+
+ </div>
+
+</body>
+</html>
